@@ -119,15 +119,18 @@ body {
     font-weight: 700;
 }
 
-.score,
-.score strong {
-    font-size: 1rem;
-    color: hsl(224, 30%, 27%);
-    font-weight: 700;
-    display: flex;
-    gap: 0.5rem;
-    align-items: center;
+.score {
+  font-size: 1rem;
+  color: hsl(224, 30%, 27%);
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
 
+.score strong {
+  font-size: 1rem;
+  font-weight: 700;
+  color: hsl(224, 30%, 27%);
 }
 
 .summary-item.reaction {
